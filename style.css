@@ -1,0 +1,173 @@
+*{
+ padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+  
+ #header {
+    background-color: aqua;
+    color: blue;
+    font-size: 20px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+}
+
+
+ .School {
+    display: flex;
+    gap: 30px;
+    margin-right: 20px;
+}
+
+
+#Home {
+    background-image: url("https://img.freepik.com/premium-vector/scene-blue-background_155083-65.jpg");
+    height: 1000px;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.pen{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#About {
+    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/428/504/desktop-wallpaper-simple-powerpoint-backgrounds-professional-background-simple-powerpoint.jpg");
+    background-size: cover;
+    height: 1000px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    color: blue;
+}
+#intro {
+    
+    padding-top: 400px;
+}
+
+#class {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 400px;
+}
+.pro{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+
+#Skill {
+    background-image: url("https://img.freepik.com/premium-vector/wavy-border-design-with-gradient-colors_336924-7097.jpg?semt=ais_hybrid&w=740&q=80");
+    height: 1000px;
+    color: blue;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    background-size: cover;
+}
+
+
+#Education {
+    background-image: url("https://img.freepik.com/premium-photo/3d-rendering-white-abstract-geometric-pattern_344726-140.jpg");
+    background-size: cover;
+    height: 1000px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    color: blue;
+}
+
+
+#Contact {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtrQyhDT_T1eUk_9OpYn5TX0S8fOfSzGT7HWbHGH8rciVXiUEwh7Kmjrrks99d8SwI7Z0&usqp=CAU");
+    height: 1000px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    background-size: cover;
+    color: black;
+}
+
+
+.book {
+    border: 2px solid blue;
+    background: slateblue;
+    height: 350px;
+    width: 300px;
+    font-size: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+
+textarea {
+    border-radius: 20px;
+    height: 30px;
+    width: 200px;
+    border: 2px solid gray;
+    background: lightgray;
+    padding-top: 10px;
+    color: gray;
+    font-size: 15px;
+}
+
+
+button {
+    font-size: 20px;
+    border-radius: 20px;
+    height: 50px;
+    width: 200px;
+    color: white;
+    background-color: blue;
+    border: none;
+}
+
+
+input {
+    border-radius: 20px;
+    height: 30px;
+    width: 200px;
+    border: 2px solid gray;
+    background: lightgray;
+    color: black;
+}
+
+
+#footer {
+    background-color: aqua;
+    font-size: 20px;
+    height: 15px;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    color: blue;
+}
